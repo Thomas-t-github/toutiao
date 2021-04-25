@@ -31,9 +31,9 @@ public class QiniuService {
         //...其他参数参考类注释
         UploadManager uploadManager = new UploadManager(cfg);
         //...生成上传凭证，然后准备上传
-        String accessKey = "";
-        String secretKey = "";
-        String bucket = "newtoutiao";
+        String accessKey = "********";
+        String secretKey = "********";
+        String bucket = "********";
         //如果是Windows情况下，格式是 D:\\qiniu\\test.png
         //String localFilePath = "/home/qiniu/test.png";
         //默认不指定key的情况下，以文件内容的hash值作为文件名
